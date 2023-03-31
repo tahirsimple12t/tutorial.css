@@ -1,0 +1,41 @@
+/* ul{background-color: red;
+   border: solid black;
+list-style-type: none;
+overflow: auto;
+}
+li{
+    color: white;
+padding: 10px 15px; 
+float: left;} */
+/* p{
+   border: solid black;
+   overflow: auto;
+}
+img{
+   width: 100px;
+   height: auto;
+  z
+}
+#img1{
+   float: right;
+}
+#img2{
+   float: right;
+   clear: right;
+} */
+#content{background-color: red;
+width:70%;
+height: 200px;
+float: left;
+}
+#sidebar{
+         width:30%;
+         background-color: aquamarine;
+         height: 150px;
+         float: right;
+
+}
+#footer{background-color: blue;
+clear: both;
+}
+

@@ -1,0 +1,7 @@
+.overflow{background-color: whitesmoke;
+border: 2px solid red;
+height: 300px;
+width: 500px;
+overflow: auto;
+resize: both;
+}

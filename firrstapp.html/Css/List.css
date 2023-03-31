@@ -1,0 +1,18 @@
+
+caption{border: solid black;
+    margin-bottom: 5px;
+border-collapse: separate;
+caption-side: bottom;}
+table{border: solid black;
+table-layout: fixed;
+width:300px;
+}
+th{border: solid black;
+height: 10px;
+width: 5px;
+text-align: center;}
+td{border: solid black;
+height: 50px;
+padding: 10px;
+vertical-align:middle;
+}

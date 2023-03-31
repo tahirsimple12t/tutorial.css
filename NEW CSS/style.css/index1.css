@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+}
+ul{
+
+    list-style: none;
+    display: flex;
+}
+li{
+    margin: 10px;
+}
+.test{
+    background-color:#333;
+    margin-top: 25px;
+    border: 2px solid black;
+    
+}
+.test a:hover{
+    background-color: #04aa6d;
+}
+.btn{
+
+}
+input{
+    transform: translateX(330%);
+}

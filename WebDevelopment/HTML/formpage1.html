@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            background-color: aqua;
+            text-align: left;
+             font-size: 25px;
+        }
+        td{
+            padding: 10px;
+        }
+        input{
+            border-radius: 5px;
+        }
+        #col{
+            color: red;
+           text-align: center;
+           text-decoration: none;
+           padding: 5px;
+           margin-left:25px;;
+           font-size: 25px;
+        }
+        
+        
+        #colo{
+            color: burlywood;
+           text-align: right;
+           text-decoration: none;
+            padding: 5px;
+            margin: 25px;
+            font-size: 25px;
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <caption>PROJECT MANEGMENT</caption>
+        <tr>
+            <th>Project Name</th>
+            <td><input type="text" placeholder="Project name"></td>
+        </tr>
+        <tr>
+            <th>Assigned to</th>
+            <td><input type="text" placeholder="Assign to"><select name="" id="">
+                <option value="Er.SAmar Momin"></option>
+                <option value="Er.Navazish Ali"></option>
+                <option value="Er.Junaid choudhary"></option>
+            </select>
+        </td>
+        </tr>
+        <tr>
+            <th>start Date</th>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <th>End Date</th>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <th>priority</th>
+             <td>
+                <input type="radio" name="samar" id="" value="High">High
+                <input type="radio" name="samar" id="" value="Average">Average
+                <input type="radio" name="samar" id="" value="Low">Low
+             </td>
+        </tr>
+        <tr>
+            <th>Description</th>
+            <td>
+                 <textarea name="" id="" cols="30" rows="10"></textarea>
+            </td>
+        </tr>
+        <td>
+            <span id="col" > 
+        <input  type="submit">
+    </span>
+      <span id="colo"> 
+        <input  type="reset">
+    </span>
+    </td>
+    </table>
+</body>
+</html>

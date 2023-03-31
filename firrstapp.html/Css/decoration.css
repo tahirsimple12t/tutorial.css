@@ -1,0 +1,4 @@
+h1.a{text-transform: uppercase;}
+h2.Upparcase{text-transform: lowercase;}
+p.capitalize{text-transform: none;}
+p.lowercase{text-transform: capitalize;}

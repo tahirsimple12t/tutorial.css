@@ -1,0 +1,14 @@
+P::first-line{
+    font-size: 50px;
+    color: red;
+}
+h1::before{
+    content: url(/Images/image2.jpg);
+}
+h1::after{
+    content: "this is heading ";
+}
+::selection{
+    color: red;
+    background-color: yellow;
+}
